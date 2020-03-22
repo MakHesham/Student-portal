@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="4dp"
+        app:srcCompat="@drawable/wak" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="239dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="93dp"
+        android:layout_y="176dp"
+        android:text="STUDENT PORTAL"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userIdText"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="367dp"
+        android:hint="@string/userIdString"
+        android:textColor="@color/colorBlack" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="480dp"
+        android:hint="@string/userPasswordString"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlack" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="56dp"
+        android:text="login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#350707"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="500dp"
+        android:text="Signup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+</FrameLayout>

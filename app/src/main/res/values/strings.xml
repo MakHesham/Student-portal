@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">layout</string>
+    <string name="userIdString">User ID</string>
+    <string name="userPasswordString">Password</string>
+    <string name="userRetypePasswordString">Retype password</string>
+</resources>
